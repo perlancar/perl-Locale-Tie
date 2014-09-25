@@ -74,3 +74,5 @@ L<POSIX>
 
 L<Locale::Scope>
 
+Other modules with the same concept: L<File::chdir>, L<File::umask>,
+L<System::setuid>.
