@@ -157,3 +157,6 @@ L<Locale::Scope>
 
 Other modules with the same concept: L<File::chdir>, L<File::umask>,
 L<System::setuid>.
+
+L<autolocale> which uses L<Variable::Magic> (similar to tie technique) to
+automatically setlocale() when entry C<< $ENV{LANG} >> is set.
